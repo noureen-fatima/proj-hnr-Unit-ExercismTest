@@ -94,4 +94,27 @@ public class ElonsToyCarTest {
 
         assertThat(car.distanceDisplay()).isEqualTo("Driven 2000 meters");
     }
+    
+    @Test
+    public void battery_at_half_way()
+    {
+    	ElonsToyCar car = new ElonsToyCar();
+    	
+    	for(int i = 0; i < 50; i++)
+    		car.drive();
+    	
+    	assertThat(car.batteryDisplay()).isEqualTo("Battery at 50%");
+    }
+    
+    @Test
+    public void distance_at_half_way()
+    {
+    	ElonsToyCar car = new ElonsToyCar();
+    	
+    	for(int i = 0; i < 50; i++)
+    		car.drive();
+    	
+    	assertThat(car.distanceDisplay()).isEqualTo("Driven 1000 meters");
+    }
+    
 }
