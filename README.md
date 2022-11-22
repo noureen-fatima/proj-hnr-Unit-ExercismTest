@@ -11,6 +11,7 @@ For general information about how to contribute to Exercism, please refer to the
 
 For information on contributing to this track, refer to the [CONTRIBUTING.md](https://github.com/exercism/java/blob/main/CONTRIBUTING.md) file.
 
+NOTE: I DO NOT OWN THIS CODE, THIS IS FOR STUDY PURPOSE, LEARNING UNIT TESTING
 
 //------------------------------------------------------------------------
 
