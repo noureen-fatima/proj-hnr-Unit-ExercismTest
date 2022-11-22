@@ -27,3 +27,4 @@ _template/gradle/
 _template/gradlew
 _template/gradlew.bat
 *.class
+/bin/

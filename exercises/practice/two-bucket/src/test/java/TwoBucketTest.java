@@ -2,8 +2,23 @@ import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class TwoBucketTest {
 
+import static org.assertj.core.api.Assertions.*;
+
+public class TwoBucketTest {
+	//checking for negative desired
+	@Test
+	public void testBucketOneSizeFiveTwoSizeOneStartWithOne() {
+		TwoBucket twoBucket = new TwoBucket(5, 1, -1, "one");
+		assertThat(twoBucket.getClass() == null).withFailMessage("Negative Desired Liters Not Handled");
+	}
+	
+	//checking for negative capacity
+	public void testBucketOneSizeFiveTwoSizeNegOneStartWithOne() {
+		TwoBucket twoBucket = new TwoBucket(5, -1, 4, "one");
+		assertThat(twoBucket.getClass() == null).withFailMessage("Negative Capacity Not Handled");
+	}
+	
     @Test
     public void testBucketOneSizeThreeBucketTwoSizeFiveStartWithOne() {
 
