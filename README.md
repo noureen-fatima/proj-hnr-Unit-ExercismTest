@@ -28,3 +28,13 @@ names of the test case are as follow:
 testBucketOneSizeFiveTwoSizeOneStartWithOne
 
 testBucketOneSizeFiveTwoSizeNegOneStartWithOne
+
+
+## Rakeen's Test Case
+In file [ElonsToyCarTest.java](https://github.com/karissa-kaal/proj-hnr-Unit-ExercismTest/blob/main/exercises/practice/elons-toy-car/src/test/java/ElonsToyCarTest.java), added two test cases that check for negative values in the capacity of the buckets and the desired value in litres
+
+Names of the test case are as follow:
+
+battery_at_half_way
+
+distance_at_half-way
