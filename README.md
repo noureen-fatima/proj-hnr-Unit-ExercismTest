@@ -18,3 +18,10 @@ NOTE: I DO NOT OWN THIS CODE, THIS IS FOR STUDY PURPOSE, LEARNING UNIT TESTING
 ## Noureen Test Case
 
 In file [BirdWatcherTest.java](https://github.com/karissa-kaal/proj-hnr-Unit-ExercismTest/blob/main/exercises/concept/bird-watcher/src/test/java/BirdWatcherTest.java), Test case with name allCountArePositive().
+
+
+##Hussain's Test Case
+In file [TwoBucketTest.java](https://github.com/karissa-kaal/proj-hnr-Unit-ExercismTest/blob/main/exercises/practice/two-bucket/src/test/java/TwoBucketTest.java), added two test cases that check for negative values in the capacity of the buckets and the desired value in litres
+names of the test case are as follow:
+testBucketOneSizeFiveTwoSizeOneStartWithOne
+testBucketOneSizeFiveTwoSizeNegOneStartWithOne
